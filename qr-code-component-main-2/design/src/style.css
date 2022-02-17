@@ -1,0 +1,75 @@
+:root {
+    /*Main colors*/
+    --white: hsl(0, 0%, 100%);
+    --lgrey: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+    --font-size: 15px;
+
+
+}
+
+body {
+    background-color: var(--lgrey);
+    font-size: var(--font-size);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#ticket {
+    /* Size of the Ticket*/
+    width: 320px;
+    height: 490px;
+    /* Center Ticket */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /*Styling of */
+    border-radius: 5%;
+    box-shadow: 15px 20px 30px var(--lgrayshBlue);
+    background-color: var(--white);
+    border: 2px var(--white);
+
+
+}
+
+#cover {
+    /*Size of the Cover*/
+    width: 300px;
+    height: 300px;
+    /*QR Item */
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    border-radius: 5%;
+    background-color: #0f77f0;
+
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+#ticket>p {
+    text-align: center;
+}
+
+#heading {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: larger;
+  
+  
+  
+  }
+  
+  #text {
+    color: var(--grayishBlue);
+    margin-bottom: 50px;
+    font-weight: 400;
+  }
